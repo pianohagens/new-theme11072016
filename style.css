@@ -1,0 +1,57 @@
+/*
+Theme Name: new-theme 
+Theme URI:  http://www.phagens.com/
+Description:  new-theme
+Author: Piano H.
+Author URI:   http://www.phagens.com/
+Version:  1.0
+Tags: Responsive, simple 
+License:
+License URI:
+This is a comment and needs to before closing comment section.
+to upload to WordPress: go to filezilla upload ten-three-one
+/phagens.com/wp-content/themes/ten-three-one
+ */
+
+body{
+    
+    background: lightblue;
+    margin: 10px 0;
+    padding: 10px 0;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+a, a:visited {
+    color:#003326;
+    text-decoration: none;
+    }
+a:hover, a:active{
+    text-decoration: underline;
+}
+#header {
+ background-image: url(images/banner-fall.PNG);
+    text-align: center;
+    padding: 50px 0;
+background-repeat: no-repeat;
+
+}
+#header img{max-width: 100%;}
+.sidebar {
+    width:250px;
+    float:right;
+    display: block;
+    padding: 10px 10px;
+    background: #ccffff;
+    
+}
+#content {
+    background-color: lightblue;
+   
+    padding: 10px 10px;
+}
+#footer {
+    clear:both;
+    padding: 15px 0;
+    border-top: 2px solid #ccfff2;
+    text-align: center;
+}
